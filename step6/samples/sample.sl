@@ -7,14 +7,14 @@
 NUMERIC I;
 I = 0;
 WHILE ( I <= 100 )
-PRINTLINE I;
-I = I + 1;
+  PRINTLINE I;
+  I = I + 1;
 WEND
 //----------------- Print all even numbers
 I=0;
 WHILE ( I <= 100 )
-PRINTLINE I;
-I = I + 2;
+  PRINTLINE I;
+  I = I + 2;
 WEND
 // ----------------- Testing String Comparison
 STRING s1;
@@ -22,8 +22,8 @@ STRING s2;
 s1="Hello";
 s2="Hell"+"o";
 if ( s1 == s2 ) THEN
-PRINTLINE " S1 and S2 are equal ";
+  PRINTLINE " S1 and S2 are equal ";
 ENDIF
 IF !( s1 <> s2 ) THEN
-PRINTLINE "Tested Logical Not" ;
+  PRINTLINE "Tested Logical Not" ;
 endif
