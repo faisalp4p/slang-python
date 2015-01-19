@@ -18,4 +18,4 @@ change directory to slang-python/step7
 run a sample SLANG script
 `python main.py samples/disc.sl` #  a script to find discriminant of an equation.
 
-If you want to learn more about it got to the original project and download documentation.
+If you want to learn more about SLANGFOR.net go to the original project repo and download documentation.
